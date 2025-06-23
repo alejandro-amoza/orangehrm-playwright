@@ -20,23 +20,26 @@ Este proyecto automatiza pruebas E2E sobre el proceso de login en el sitio de de
 Automatizar los flujos de login más comunes para validar que el sistema:
 - Permite el acceso con credenciales válidas
 - Muestra errores adecuados con credenciales inválidas o vacías
+- Redirecciona correctamente a enlaces externos relacionados
 
 ---
 
 ## 🧪 Casos de prueba automatizados
 
-1. ✅ **Login exitoso**
-   - Usuario: `Admin`
-   - Contraseña: `admin123`
-   - Validación: redirección al Dashboard y presencia del texto `Dashboard`
-2. ❌ **Login con usuario inválido**
-   - Validación: mensaje de error
-3. ⚠️ **Login con campos vacíos**
-   - Validación: mensajes de validación requeridos
+📄 Diseños de los CP disponibles en:
+https://drive.google.com/drive/folders/1wXV8LiJ1pgFmB4XBzGHhjlaFpYpK4wvf
+
+Casos automatizados:
+- CP 01 - Login exitoso
+- CP 02 - Login con credenciales inválidas
+- CP 03 - Login con campos vacíos
+- CP 04 - Solo username
+- CP 05 - Solo password
+- CP 06 - Redirección al "Forgot your password?"
+- CP 07 - Redirección de redes sociales
+- CP 08 - Redirección del enlace OrangeHRM, Inc
 
 ---
-
-## 📁 Estructura del proyecto
 
 ## 🚀 Cómo ejecutar
 ```bash
@@ -46,4 +49,3 @@ npm install
 npx playwright install
 npx playwright test
 npx playwright show-report
-
