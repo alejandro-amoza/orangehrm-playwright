@@ -49,3 +49,11 @@ npm install
 npx playwright install
 npx playwright test
 npx playwright show-report
+```
+---
+
+🙌 Autor
+Alejandro Amoza – QA Tester
+
+LinkedIn
+Portfolio
