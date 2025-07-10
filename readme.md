@@ -50,10 +50,10 @@ npx playwright install
 npx playwright test
 npx playwright show-report
 ```
+
 ---
 
-🙌 Autor
+## 🙌 Autor
 Alejandro Amoza – QA Tester
-
-LinkedIn
-Portfolio
+- [LinkedIn](https://www.linkedin.com/in/alejandro-amoza)
+- [Portfolio](https://alejandro-amoza.github.io/portfolio)
